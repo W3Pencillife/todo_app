@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do App</title>
+</head>
+<body>
+    <div id="container">
+        <div class="submitButton">
+            <h2>To-Do App</h2>
+            <form class="formInfo">
+                <label for="new-task">Add new Task</label>
+                <input type="text" id="new-task">
+                <input type="submit" name="" id="addTask" value="Add Task">
+            </form>
+        </div>
+        <div class="taskInfo">
+            <div class="inCompletedTask">
+                <p>INCOMPLETED TASKS</p>
+                <ul class="task-box">
+                    <li class="task">
+                        <input type="checkbox" id="taskName1">
+                        <label for="taskName1" class="taskName">Task Name</label>
+                    </li>
+                    <li class="task">
+                        <input type="checkbox" id="taskName2">
+                        <label for="taskName2" class="taskName">Task Name</label>
+                    </li>
+                    <li class="task">
+                        <input type="checkbox" id="taskName3">
+                        <label for="taskName3" class="taskName">Task Name</label>
+                    </li>
+                </ul>
+            </div>
+            <div class="completedTask">
+                <p>COMPLETED TASKS</p>
+                <ul>
+                    <li class="task">
+                        <label class="taskName">Task Name</label>
+                        <button class="del">Delete</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

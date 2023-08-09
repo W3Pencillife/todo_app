@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    width: 700px;
+    margin: 50px auto;
+    background-color: lavender;
+    box-shadow: 5px 5px lightsteelblue;
+}
+.submitButton {
+    margin-top: 60px;
+}
+.submitButton h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.submitButton .formInfo {
+    background-color: deepskyblue;
+    padding: 10px 100px;
+    border-radius: 5px;
+}
+.addTask {
+    padding: 0 5px;
+}
+.taskInfo {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: auto;
+    width: 500px;
+}
+.inCompletedTask {
+    width: 230px;
+}
+
+.inCompletedTask ul {
+    list-style: none;
+    margin-left: 40px;
+}
+.inCompletedTask .task {
+    padding: 10px 0;
+}
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    font-weight: 600;
+}
+.completedTask {
+    width: 200px;
+    padding-left: 40px;
+    
+}
+.completedTask ul {
+    list-style: none;
+    margin-left: 40px;
+}
+.completedTask .task {
+    padding: 10px 0;
+}
+.completedTask button {
+    margin-left: 10px;
+    padding: 0 10px;
+    background-color: red;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+}
+
